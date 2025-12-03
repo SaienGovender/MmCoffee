@@ -2,4 +2,6 @@
     <string name="app_name">MmCoffee</string>
     <string name="choose_your_nfavourite_coffee">Choose your \nFavourite Coffee</string>
     <string name="get_started">Get Started</string>
+    <string name="search_anything">Search anything...</string>
+    <string name="popular_coffees">Popular Coffees</string>
 </resources>
