@@ -3,6 +3,7 @@ package com.example.mmcoffee.Model
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.ViewModel
 import com.example.mmcoffee.Domain.BannerModel
+import com.example.mmcoffee.Domain.CategoryModel
 import com.example.mmcoffee.Repository.MainRepository
 
 class MainViewModel: ViewModel() {
@@ -10,5 +11,9 @@ class MainViewModel: ViewModel() {
 
     fun loadBanner(): LiveData<MutableList<BannerModel>> {
         return repository.loadBanner()
+    }
+
+    fun loadCategory(): LiveData<MutableList<CategoryModel>> {
+        return repository.loadCategory()
     }
 }
